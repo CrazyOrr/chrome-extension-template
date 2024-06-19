@@ -1,7 +1,7 @@
 {
   "name": "chrome-extension-template",
   "version": "0.0.1",
-  "description": "A GitHub template repository for Chrome extensions.",
+  "description": "A GitHub template repository for Chrome/cross-browser extensions.",
   "keywords": [
     "chrome",
     "extension"
