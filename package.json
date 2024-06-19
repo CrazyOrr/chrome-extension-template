@@ -1,0 +1,43 @@
+{
+  "name": "chrome-extension-template",
+  "version": "0.0.1",
+  "description": "A GitHub template repository for Chrome extensions.",
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
+  "homepage": "https://github.com/CrazyOrr/chrome-extension-template",
+  "author": "Lei Wang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrazyOrr/docusaurus-template.git"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "cspell": "^8.8.4",
+    "del": "^7.1.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.5.0",
+    "gulp": "^5.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint-new": "^2.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-terser": "^2.1.0",
+    "prettier": "^3.3.2",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --cache ./src/scripts",
+    "lint:fix": "eslint --cache --fix ./src/scripts",
+    "stylelint": "stylelint --cache \"./src/styles/*.css\"",
+    "stylelint:fix": "stylelint --cache --fix \"./src/styles/*.css\"",
+    "spelling": "cspell \"**\"",
+    "format": "prettier --write src/",
+    "format:check": "prettier --check src/"
+  }
+}

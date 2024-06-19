@@ -1,0 +1,11 @@
+{
+  "ext_name": {
+    "message": "我的扩展"
+  },
+  "ext_short_name": {
+    "message": "扩展"
+  },
+  "ext_description": {
+    "message": "我的扩展能做很多事情"
+  }
+}

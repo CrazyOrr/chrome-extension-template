@@ -1,0 +1,11 @@
+{
+  "ext_name": {
+    "message": "My Extension"
+  },
+  "ext_short_name": {
+    "message": "Extension"
+  },
+  "ext_description": {
+    "message": "My Extension can do a lot of things"
+  }
+}
