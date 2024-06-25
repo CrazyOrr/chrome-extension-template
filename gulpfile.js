@@ -6,9 +6,10 @@ import cleanCss from 'gulp-clean-css';
 import htmlmin from 'gulp-htmlmin';
 import imagemin from 'gulp-imagemin';
 import cache from 'gulp-cache';
+import zip from 'gulp-zip';
 
 function clean() {
-  return deleteAsync(['dist']);
+  return deleteAsync(['dist', 'dist.zip']);
 }
 
 function lint() {
@@ -81,6 +82,10 @@ function extras() {
     .pipe(gulp.dest('dist'));
 }
 
+function compress() {
+  return gulp.src('dist/*').pipe(zip('dist.zip')).pipe(gulp.dest('.'));
+}
+
 export const build = gulp.parallel(
   gulp.series(lint, scripts),
   styles,
@@ -90,4 +95,4 @@ export const build = gulp.parallel(
   extras,
 );
 
-export default gulp.series(clean, build);
+export default gulp.series(clean, build, compress);
