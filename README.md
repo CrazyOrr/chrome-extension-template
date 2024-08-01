@@ -20,6 +20,18 @@ A [GitHub template repository](https://docs.github.com/en/repositories/creating-
 
 See "[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)" from GitHub.
 
+## Checklist
+
+When you use this template, update the following:
+
+- Remove `.git` directory and run `git init` to clean up the history
+- Change the info in `package.json` and remove `package-lock.json` then run `npm install` to regenerate it
+- Change the author name in `LICENSE` or change the whole `LICENSE`
+- Clean up the `README`
+- Replace example files in `src` directory with your files
+
+And, enjoy :)
+
 ## License
 
 This project is licensed under the terms of the [MIT](LICENSE) license.
