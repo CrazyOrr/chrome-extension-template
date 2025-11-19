@@ -1,4 +1,5 @@
 import pluginJs from '@eslint/js';
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import globals from 'globals';
 
@@ -14,4 +15,5 @@ export default defineConfig([
     },
   },
   pluginJs.configs.recommended,
+  eslintPluginPrettierRecommended,
 ]);
