@@ -1,10 +1,9 @@
-import globals from 'globals';
 import pluginJs from '@eslint/js';
+import { defineConfig, globalIgnores } from 'eslint/config';
+import globals from 'globals';
 
-export default [
-  {
-    ignores: ['dist/'],
-  },
+export default defineConfig([
+  globalIgnores(['dist/']),
   {
     languageOptions: {
       globals: {
@@ -15,4 +14,4 @@ export default [
     },
   },
   pluginJs.configs.recommended,
-];
+]);
