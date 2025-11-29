@@ -40,7 +40,7 @@
     "stylelint": "stylelint --cache \"./src/styles/*.css\"",
     "stylelint:fix": "stylelint --cache --fix \"./src/styles/*.css\"",
     "spelling": "cspell \"**\"",
-    "format": "prettier --write src/",
-    "format:check": "prettier --check src/"
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   }
 }
