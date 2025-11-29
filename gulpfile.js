@@ -8,7 +8,7 @@ import imagemin from 'gulp-imagemin';
 import cache from 'gulp-cache';
 import zip from 'gulp-zip';
 
-function clean() {
+export function clean() {
   return deleteAsync(['dist', 'dist.zip']);
 }
 
