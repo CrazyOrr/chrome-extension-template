@@ -4,6 +4,7 @@
   "description": "A GitHub template repository for Chrome/cross-browser extensions.",
   "keywords": [
     "chrome",
+    "edge",
     "extension"
   ],
   "homepage": "https://github.com/CrazyOrr/chrome-extension-template",
