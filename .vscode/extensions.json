@@ -5,6 +5,7 @@
     "dbaeumer.vscode-eslint",
     "stylelint.vscode-stylelint",
     "EditorConfig.EditorConfig",
+    "streetsidesoftware.code-spell-checker",
     "Gruntfuggly.todo-tree"
   ],
   "unwantedRecommendations": []
